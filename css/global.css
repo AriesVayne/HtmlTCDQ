@@ -1,0 +1,152 @@
+@charset "utf-8";
+body a{
+	text-decoration: none;
+	color: #333333;
+}
+.global {
+	background-color: #FC9;
+}
+.top_menu_ul {
+	background-color: #b65d39;
+	float: left;
+	position: fixed;
+	top: 35px;
+	margin-left: -7px;
+	margin-top: -1px;
+	height: 40px;
+	width: 100%;
+	z-index: 5;
+}
+
+.top_menu_li {
+	float: left;
+	color: #CCC;
+	line-height:40px;
+	list-style-type: none;
+	width: 100px;
+	/*font-family: "华文新魏";*/
+	height: 40px;
+	text-align: center;
+	text-decoration:none
+}
+.top_menu_liright {
+	float: right;
+	color: #CCC;
+	line-height:40px;
+	list-style-type: none;
+	width: 50px;
+	/*font-family: "华文新魏";*/
+	height: 40px;
+	text-align: center;
+}
+#navi {
+	background-color: #CCC;
+	height: 22px;
+	width: 22px;
+}
+.navi_div {
+	float: left;
+	text-align:center;
+	height:40px;
+	margin-top:60px;
+	width:70px; 
+	/*font-family:'华文楷体';*/
+	font-size:25px;
+	line-height:40px;
+}
+.navi_left {
+	background-color: #999;
+	float: left;
+	text-align: center;
+	height: 300px;
+	width: 300px;
+	/*font-family: '华文楷体';*/
+	font-size: 25px;
+	line-height: 40px;
+}
+.navi_right {
+	background:#F96;
+	float: left;
+	text-align:center;
+	height:300px;
+	width:700px;
+	/*font-family:'华文楷体';*/
+	font-size:25px;
+	line-height:40px;
+}
+.mainleftFAQ {   
+    width: 150px;   
+}   
+.fMenuText {
+	cursor: pointer;
+	margin: 1px;
+	font-weight: bold;
+	/*font-family: "华文楷体";*/
+	font-size: 20px;
+	line-height: 75px;
+	height: 75px;
+	color: #FFF;
+}   
+.sMenu {
+	/*font-family: "新宋体";*/
+	font-size: 14px;
+	position: absolute;
+	z-index: 1;
+	height: 300px;
+	width: 400px;
+	top: 105px;
+	text-align: center;
+	left: 475px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	background-color: #FFFFFF;
+}   
+.sMenu a    
+{
+	display: block;
+	color: #333333;
+	padding-left: 10px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #FFF;
+	font-style: normal;
+	float: left;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	height: 40px;
+	width: 156px;
+}   
+ .sMenu a:hover {
+	color: #7fb2f4;
+	text-decoration: underline;
+}   
+.image {
+	
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+.imgPar {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	float: left;
+}
+.aStyle {
+	text-decoration: none;
+}
+
+
+/*正式开始的部分*/
+.mid_content{
+	width: 100%;
+	margin-top: 85px;
+}

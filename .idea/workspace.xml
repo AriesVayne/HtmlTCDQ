@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47ada6ab-d579-4552-be7e-f7255adf6442" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PXKSL9jU7jpNbbi2NgHFK8W2n3" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdwx" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\work\html\dqwx\jdwx" />
+      <recent name="G:\work\html\dqwx\ktxs" />
+      <recent name="G:\work\html\dqwx" />
+      <recent name="G:\work\html\dqwx\img\index" />
+      <recent name="G:\work\html\dqwx\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\work\html\dqwx\ktxs" />
+      <recent name="G:\work\html\dqwx" />
+      <recent name="G:\work\html\dqwx\css\ktwx" />
+      <recent name="G:\work\html\dqwx\img\ktwx" />
+      <recent name="G:\work\html\dqwx\ktwx" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47ada6ab-d579-4552-be7e-f7255adf6442" name="Default Changelist" comment="" />
+      <created>1566015193689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566015193689</updated>
+      <workItem from="1566015198630" duration="11131000" />
+      <workItem from="1566053379862" duration="26000" />
+      <workItem from="1566053490410" duration="3310000" />
+      <workItem from="1566093984438" duration="10827000" />
+      <workItem from="1566115223009" duration="2679000" />
+      <workItem from="1566215832285" duration="2270000" />
+      <workItem from="1566396213032" duration="1991000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

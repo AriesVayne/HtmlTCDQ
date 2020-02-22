@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>联系我们-郯城专业空调维修</title>
+    <link href="css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="css/mdjj.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-3.1.1.min.js"/>
+    <script type='text/javascript' src='js/indexPage.js' charset='utf-8'></script>
+</head>
+<body>
+<div class="top_add">
+    欢迎访问郯城郑家电器维修，专业维修电话：13954429788
+</div>
+<div class="top_navi">
+    <ul class="top_menu_ul">
+        <li class="top_menu_li" onmouseover="this.style.backgroundColor ='#f6821f'"
+            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./index.html">首页</a></li>
+        <li class="top_menu_li" onmouseover="this.style.backgroundColor ='#f6821f'"
+            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./ktwx/ktwx.html">空调维修</a></li>
+        <li class="top_menu_li" onmouseover="this.style.backgroundColor ='#f6821f'"
+            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./ktxs/ktxs.html">空调销售</a></li>
+        <li class="top_menu_li" onmouseover="this.style.backgroundColor ='#f6821f'"
+            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./jdwx/jdwx.html">家电维修</a></li>
+        <li class="top_menu_li" onmouseover="this.style.backgroundColor ='#f6821f'"
+            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./lxwm.html">联系我们</a></li>
+    </ul>
+</div>
+<div class="mid_content">
+    <div class="img_play">
+        <img id="adverPic" src="img/index/image1.jpg" style="width:100%; height:100%;"/>
+        <img id="left" onclick="subi();" ; src="img/index/left2.png" onmouseover="this.style.backgroundColor='#D2D2D2'"
+             onmouseout="this.style.backgroundColor=''"
+             style="float:left;width:80px; height:80px;overflow:auto; position: absolute; margin-top:-170px;left: 20px"/>
+        <img id="right" onclick="changePic();" ; src="img/index/right2.png"
+             onmouseover="this.style.backgroundColor='#D2D2D2'" onmouseout="this.style.backgroundColor=''"
+             style="float:left;width:80px; height:80px;overflow:auto; position: absolute; margin-top:-170px; right: 20px"/>
+        <div style="text-align:center;margin-top: -30px ">
+            <input id="radio0" name="lit" type="radio" value="0" onClick="chani(0)"/>
+            <input id="radio1" name="lit" type="radio" value="1" onClick="chani(1)"/>
+            <input id="radio2" name="lit" type="radio" value="2" onClick="chani(2)"/>
+            <input id="radio3" name="lit" type="radio" value="3" onClick="chani(3)"/>
+            <input id="radio4" name="lit" type="radio" value="4" onClick="chani(4)"/>
+            <input id="radio5" name="lit" type="radio" value="5" onClick="chani(5)"/>
+            <input id="radio6" name="lit" type="radio" value="6" onClick="chani(6)"/>
+        </div>
+    </div>
+</div>
+<P style="text-align: center; font-size: 25px; ">门店简介</P>
+<div class="mid_detail">
+    <div class="detail_left">
+        <img src="img/index/img_location.png" style="width: 100%; height: 100%"/>
+    </div>
+    <div class="detail_right">
+        <p>作为一家一直以客户满意为办事宗旨的家电维修工作者来讲，自创店到至今，深得周围客户的照顾，立足维修行业数三十载，积累了丰富的经验，其中也不乏有汽车和其他行业中和
+        电路交叉的同僚来共同探讨电路问题，可能在大家看来这只是一个简单的家电维修，但实质上，但凡和电路有关的问题，我们都能解决。</p>
+        <p>本店位于南关三老中医院对过，郯城郑家电器维修，各大导航搜索均可直达，欢迎您前来</p>
+        <p>联系电话:13954429788</p>
+
+    </div>
+</div>
+<div class="bottom_aboutus">
+    <p>
+     <a target="_blank" href="">Copyright © 1990-2019 郯城郑家电器维修 版权所有 网址:http://www.tczjdq.club/</a>
+    <p>
+        <img src="img/index/icon_icp.png"/>
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132202190007">鲁公网安备 37132202190007</a>
+        <a target="_blank" href="">备案/许可证编号：鲁ICP备12025600号</a>
+    </p>
+</div>
+</body>
+<script type="text/javascript">
+    var pic = new Array(7);
+    pic = "image0,image1,image2,image3,image4,image5".split(",");
+    i = 1;
+    var int = self.setInterval("changePic()", 3000);
+
+    function changePic() {
+        document.getElementById("adverPic").src = "img/index/image" + i + ".jpg";
+        document.getElementById("radio" + i).checked = true;
+        //alert("images/image"+i+".jpg");
+        if (i < pic.length) {
+            i++;
+        } else {
+            i = 0;
+        }
+    }
+
+    function chani(t) {
+        i = t;
+        changePic();
+    }
+
+    function subi() {
+        if (i == 0) {
+            i = 5;
+            changePic();
+            return;
+        }
+        if (i > 1) {
+            i -= 2;
+        } else {
+            i = 6;
+        }
+        changePic();
+    }
+
+    function chancss() {
+
+        $(this).css("background-color", "#000");
+    }
+
+    function show(i) {
+        document.getElementById("sM" + i).style.display = "block";
+    }
+
+    function hide(i) {
+        document.getElementById("sM" + i).style.display = "none";
+    }
+</script>
+</html>
