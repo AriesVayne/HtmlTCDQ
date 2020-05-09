@@ -7,7 +7,7 @@
     <link href="css/index.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-3.1.1.min.js"/>
     <script type='text/javascript' src='js/indexPage.js' charset='utf-8'></script>
-	<meta name="KEYWords" contect="郯城修空调">
+    <meta name="KEYWords" contect="郯城修空调">
 </head>
 <body>
 <div class="top_add">
@@ -18,11 +18,14 @@
         <li class="top_menu_li" onmouseover="this.style.backgroundColor ='#f6821f'"
             onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./index.html">首页</a></li>
         <li class="top_menu_li" onmouseover="this.style.backgroundColor ='#f6821f'"
-            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./ktwx/ktwx.html">空调维修</a></li>
+            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./ktwx/ktwx.html">空调维修</a>
+        </li>
         <li class="top_menu_li" onmouseover="this.style.backgroundColor ='#f6821f'"
-            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./ktxs/ktxs.html">空调销售</a></li>
+            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./ktxs/ktxs.html">空调销售</a>
+        </li>
         <li class="top_menu_li" onmouseover="this.style.backgroundColor ='#f6821f'"
-            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./jdwx/jdwx.html">家电维修</a></li>
+            onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./jdwx/jdwx.html">家电维修</a>
+        </li>
         <li class="top_menu_li" onmouseover="this.style.backgroundColor ='#f6821f'"
             onmouseout="this.style.backgroundColor ='#b65d39'"><a class="top_menu_li" href="./lxwm.html">联系我们</a></li>
     </ul>
@@ -80,20 +83,28 @@
         </div>
         <div class="left_content">
             <ul>
-                <a href="ktwx/ktqx.html"><li>空调清洗</li></a>
-                <a href="ktwx/ktjf.html"><li>空调加氟</li></a>
-                <a href="ktwx/ktwx.html"><li>空调维修</li></a>
-                <a href="ktwx/ktyj.html"><li>空调移机</li></a>
+                <a href="ktwx/ktqx.html">
+                    <li>空调清洗</li>
+                </a>
+                <a href="ktwx/ktjf.html">
+                    <li>空调加氟</li>
+                </a>
+                <a href="ktwx/ktwx.html">
+                    <li>空调维修</li>
+                </a>
+                <a href="ktwx/ktyj.html">
+                    <li>空调移机</li>
+                </a>
             </ul>
         </div>
     </div>
     <div class="detail_right">
-        <div class="right_location">主页 > 服务项目 > 空调维修 > 空调清洗 </div>
-        <div class="newtitle"> 专业的清洗空调 </div>
+        <div class="right_location">主页 > 服务项目 > 空调维修 > 空调清洗</div>
+        <div class="newtitle"> 专业的清洗空调</div>
         <div class="newcontent">
             <img src="img/index/img_clean.jpg" style="margin-left:150px;width: 500px; height: 300px; margin-top: 20px;">
             <p>
-            <span class="bjh-strong" style="font-size:18px;">空调清洗的重要性:</span>
+                <span class="bjh-strong" style="font-size:18px;">空调清洗的重要性:</span>
             </p>
             <p>
                 <span class="bjh-strong">空调在无数次重复运行中，空气夹杂的大量尘埃和液态烟雾就会层层包裹散热片，严重堵塞散热片之间微小空隙，影响散热片散热，从而导致凝器压力升高。压缩机马达电流增大，运行时间延长，耗电量增加。</span>
@@ -108,22 +119,41 @@
                 郯城郑家电器维修，给您提供最专业的空调清洗工具，空调加氟，专业加氟，效果没有显著提升绝不收费，直到您满意为止。
             </p>
             <p>
-            欢迎来电咨询：13954429788、15863861835(微信同号)
+                欢迎来电咨询：13954429788、15863861835(微信同号)
             </p>
         </div>
     </div>
 </div>
 <div class="bottom_aboutus">
     <p>
-     <a target="_blank" href="">Copyright © 1990-2019 郯城郑家电器维修 版权所有 网址:http://www.tczjdq.club/</a>
+        <a target="_blank" href="">Copyright © 1990-2019 郯城郑家电器维修 版权所有 网址:http://www.tczjdq.club/</a>
     <p>
         <img src="img/index/icon_icp.png"/>
-        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132202190007">鲁公网安备 37132202190007</a>
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132202190007">鲁公网安备
+            37132202190007</a>
         <a target="_blank" href="">备案/许可证编号：鲁ICP备19035655号-1</a>
     </p>
 </div>
 </body>
 <script type="text/javascript">
+
+    //手机网站的url 只需改这一处地方即可。
+    var mobileUrl = 'lxwm.html';
+    var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+    var browser = navigator.userAgent.toLowerCase();
+    var isMobile = false;
+    for (var i = 0; i < mobileAgent.length; i++) {
+        if (browser.indexOf(mobileAgent[i]) != -1) {
+            isMobile = true;
+            break;
+        }
+    }
+    if (isMobile) {
+        //当前是手机或平板等小屏设备浏览，自动跳转到手机网站
+        location.href = mobileUrl;
+        // alert(22222);
+    }
+
     var pic = new Array(7);
     pic = "image0,image1,image2,image3,image4,image5".split(",");
     i = 1;
@@ -170,6 +200,22 @@
 
     function hide(i) {
         document.getElementById("sM" + i).style.display = "none";
+    }
+
+    function IsPC() {
+        console.log(navigator.userAgent);
+        if (navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)
+        ) {
+            return true;
+        } else {
+            return false;
+        }
     }
 </script>
 </html>
