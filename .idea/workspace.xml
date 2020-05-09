@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ada6ab-d579-4552-be7e-f7255adf6442" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="47ada6ab-d579-4552-be7e-f7255adf6442" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ktwx/ktjf.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ktwx/ktjf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ktwx/ktwx.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ktwx/ktwx.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ktwx/ktyj.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ktwx/ktyj.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdjj.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mdjj.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,23 +30,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1PXKSL9jU7jpNbbi2NgHFK8W2n3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdwx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\work\html\dqwx\jdwx" />
-      <recent name="G:\work\html\dqwx\ktxs" />
-      <recent name="G:\work\html\dqwx" />
-      <recent name="G:\work\html\dqwx\img\index" />
-      <recent name="G:\work\html\dqwx\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\work\html\dqwx\ktxs" />
       <recent name="G:\work\html\dqwx" />
@@ -46,16 +58,23 @@
       <recent name="G:\work\html\dqwx\img\ktwx" />
       <recent name="G:\work\html\dqwx\ktwx" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\work\html\dqwx\jdwx" />
+      <recent name="G:\work\html\dqwx\ktxs" />
+      <recent name="G:\work\html\dqwx" />
+      <recent name="G:\work\html\dqwx\img\index" />
+      <recent name="G:\work\html\dqwx\css" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -76,10 +95,36 @@
       <workItem from="1566115223009" duration="2679000" />
       <workItem from="1566215832285" duration="2270000" />
       <workItem from="1566396213032" duration="1991000" />
+      <workItem from="1589012402836" duration="530000" />
+      <workItem from="1589013909302" duration="1615000" />
+      <workItem from="1589016371058" duration="446000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589012679549">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="435" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/1440.-87.1920.1057@0.23.1440.877" timestamp="1589012679549" />
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589012879706">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/1440.-87.1920.1057@0.23.1440.877" timestamp="1589012879706" />
+    <state x="380" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1589016372880">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="380" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.-87.1920.1057@0.23.1440.877" timestamp="1589016372880" />
+    <state x="368" y="51" width="858" height="798" key="find.popup" timestamp="1589016816604">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="368" y="51" width="858" height="798" key="find.popup/0.0.1440.900/1440.-110.1920.1080@0.0.1440.900" timestamp="1589016816604" />
+    <state x="368" y="73" width="703" height="777" key="find.popup/0.23.1440.877/1440.-87.1920.1057@0.23.1440.877" timestamp="1589016586396" />
+    <state x="385" y="223" width="670" height="676" key="search.everywhere.popup" timestamp="1589016574998">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="223" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.-87.1920.1057@0.23.1440.877" timestamp="1589016574998" />
   </component>
 </project>
